@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&display=swap');
+/* Font family */
+/*
+font-family: 'Rubik', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+*/
+
+@font-face {
+    font-family: 'sathu';
+    src: url("./../fonts/Sathu-quotation.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Basic Setup */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+span,
+label{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 0;
+}
+:root{
+    --white:#fff;
+    --black:#000000;
+    --body-bg:#070d27;
+}
+
+body{
+    background: var(--body-bg);
+}
+
+header,
+section,
+footer{
+    padding-left: 172px;
+    padding-right:172px;
+}
+
+
+/* Header Section Start */
+.header--section{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo img{
+    max-width: 300px;
+}
+
+.main--nav ul li a{
+    font-family: 'Rubik', sans-serif;
+    font-size:24px;
+    font-weight: 400;
+    line-height:28px;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+.main--nav ul li:not(:last-child){
+    margin-right: 72px;
+}
+.main--nav ul li:hover a{
+    color:#fff;
+}
+/* Header Section End */
+
+/* Banner Section Start */
+.banner--wave{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.banner--section{
+    padding-top:224px;
+    padding-bottom: 224px;
+}
+.banner--section h2{
+    font-family: 'Rubik', sans-serif;
+    font-size:74px;
+    font-weight: 400;
+    line-height:80px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.banner--section h1{
+    font-family: 'Rubik', sans-serif;
+    font-size:80px;
+    font-weight: 500;
+    line-height:72px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.banner--section p{
+    font-family: 'Rubik', sans-serif;
+    font-size:48px;
+    font-weight: 400;
+    line-height:48px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.banner--section button{
+    background:url('./../images/smallbutton.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 14px 32px;
+    border-radius: 42px;
+    font-family: 'Rubik', sans-serif;
+    font-size:24px;
+    font-weight: 400;
+
+}
+/* Banner Section End */
+
+/* Service Section Start */
+
+.our--service{
+    padding-top:120px;
+    padding-bottom: 120px;
+    position: relative;
+}
+.our--service .muster--wave{
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width: 500px;
+    height: auto;
+    z-index: -1;
+}
+.service--content{
+    padding: 0 160px;
+}
+.service--title {
+    text-align: center;
+}
+.service--title h2{
+    font-family: 'Rubik', sans-serif;
+    font-size:72px;
+    font-weight: 400;
+    line-height:80px;
+    color: #fff;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.service--content .row:not(:last-child){
+    margin-bottom: 96px;
+}
+.service--row{
+    display:flex;
+}
+.service--img img{
+    width:84px;
+    height:84px;
+    margin-right:20px;
+}
+
+.service--text h3{
+    font-family: 'Rubik', sans-serif;
+    font-size:36px;
+    font-weight: 400;
+    line-height:36px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.service--text p{
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+    font-weight: 400;
+    line-height:32px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.service--text button{
+    background:url('./../images/smallbutton.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 12px 36px;
+    border-radius: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    margin-top: 48px;
+}
+/* Service Section End */
+
+/* About Section Start*/
+
+.about--content{
+    padding-left:120px;
+    padding-right: 120px;
+    text-align: center;
+}
+.about--content h2{
+    font-family: 'Rubik', sans-serif;
+    font-size:72px;
+    font-weight: 400;
+    line-height:80px;
+    color: #fff;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.about--content p{
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+    font-weight: 400;
+    line-height:32px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+/* About Section End*/
+
+/* Testimonial Section Start */
+.testimonial-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.testimonial--content{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.testimonial--content .testimonial--row:not(:last-child){
+    margin-bottom: 140px;
+}
+.testimonial--text{
+    padding-right: 120px;
+}
+.testimonial--text p{
+    display: flex;
+}
+.testimonial--text p span:first-child{
+    font-family: 'sathu', sans-serif;
+    font-size:90px;
+    font-weight: 400;
+    line-height:80px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-right: 12px;
+    display: inline-block;
+}
+.testimonial--text p span:last-child{
+    font-family: 'Rubik', sans-serif;
+    font-size:24px;
+    font-weight: 400;
+    line-height:32px;
+    color: #fff;
+    margin-bottom: 8px;
+    padding-top: 20px;
+}
+.testimonial--img{
+    text-align: center;
+}
+.testimonial--img img{
+    width: 100%;
+    max-width: 360px;
+    margin-bottom: 24px;
+}
+.testimonial--img h4{
+    font-family: 'Rubik', sans-serif;
+    font-size:32px;
+    font-weight: 400;
+    line-height:32px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.testimonial--img h5{
+    font-family: 'Rubik', sans-serif;
+    font-size:22px;
+    font-weight: 400;
+    line-height:32px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+/* Testimonial Section end */
+
+/* Contact Us Secions */
+.contact--section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.contact--content{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.contact--title{
+    text-align: center;
+}
+.contact--title h2{
+    font-family: 'Rubik', sans-serif;
+    font-size:72px;
+    font-weight: 400;
+    line-height:80px;
+    color: #fff;
+    margin-bottom: 72px;
+    text-transform: uppercase;
+}
+.contact--text{
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 85%;
+}
+.contact--content-wrapper{
+    display:flex;
+}
+.contact--img img{
+    width: 72px;
+    height: 72px;
+    margin-right: 12px;
+}
+.contact--text-row p{
+    font-family: 'Rubik', sans-serif;
+    font-size:24px;
+    font-weight: 300;
+    line-height:40px;
+    color: #fff;
+}
+.contact--text-row.margin{
+    margin-bottom: 24px;
+}
+
+.contact--content .contact--row:not(:last-child){
+    margin-bottom: 80px;
+}
+.contact--text h4{
+    font-family: 'Rubik', sans-serif;
+    font-size:36px;
+    font-weight: 300;
+    line-height:40px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+/* Footer Section Start */
+
+.footer--content{
+    border-top: 1px solid #4D4299;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.social--media-icons{
+    text-align: center;
+}
+.social--media-icons ul li:not(:last-child){
+    margin-right: 32px;
+}
+.social--media-icons ul li a img{
+    width:48px;
+    height: auto;
+}
+.footer--content .copyright--text{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+    font-weight: 400;
+    line-height:24px;
+    color: #fff;
+    margin-top: 48px;
+}
+/* Footer Section End */
