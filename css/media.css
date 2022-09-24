@@ -1,17 +1,187 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
-    header,
-    section,
-    footer{
+    header, section, footer {
         padding-left: 15px;
-        padding-right:15px;
+        padding-right: 15px;
     }
-
-    
-    /* Header Section Start */
-    .header--section{
+    .navbar {
+        position: relative;
+    }
+    .logo img{
+        max-width: 140px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 11px;
+    }
+    .main--nav{
+        padding: 20px 0;
+        text-align: center;
+    }
+    .main--nav ul li:not(:last-child){
+        margin-right: 0px;
+    }
+    .navbar-toggler{
+        border: 0;
+    }
+    .navbar-toggler svg{
+        width: 32px;
+        height: 32px;
+        stroke: #fff;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-toggler[aria-expanded="true"] svg.open--toogler{
+        display: none;
+    }
+    .navbar-toggler[aria-expanded="false"] svg.close--toogler{        
+        display: none;
+    }
+    .navbar-toggler svg.close--toogler{
+        transform: rotate(45deg);
+    }
+    .banner--section {
+        padding-top: 108px;
+        padding-bottom: 108px;
+    }
+    .header--section {
         padding-top: 12px;
-        padding-bottom:12px;
+        padding-bottom: 12px;
+    }
+    .logo img {
+        max-width: 160px;
+    }
+    .main--nav ul li:not(:last-child){
+        margin-right: 0px;
+    }
+    .main--nav ul li a{
+        font-size: 16px;
+    }
+    .banner--section h2 {
+        font-size: 24px;
+        line-height:32px;
+    }
+    .banner--section h1{
+        font-size:32px;
+        line-height:40px;
+    }
+    .banner--section p {
+        font-size: 24px;
+        line-height:28px
+    }
+    .our--service{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .service--content {
+        padding: 0;
+    }
+    .service--text h3{
+        font-size:24px;
+        line-height:32px;
+    }
+    .about--content p,
+    .service--text p{
+        font-size:16px;
+    }
+    .about--content h2,
+    .contact--title h2,
+    .service--title h2 {
+        font-size:32px;
+        margin-bottom: 40px;
+        line-height:40px;
+    }
+    .about--content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .testimonial--content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .testimonial--text{
+        padding-right: 15px;
+    }
+    .testimonial-section{
+        padding-top: 64px;
+        padding-bottom: 0px;
+    }
+    .contact--content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact--section{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .testimonial--text p span:last-child{
+        font-size:16px;
+    }
+    .testimonial--img h4{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .testimonial--img h5 {
+        font-size: 16px;
+        line-height:20px;
+    }
+    .contact--text-row p {
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .contact--text h4{
+        font-size:32px;
+        margin-bottom:16px;
+    }
+    .social--media-icons ul li a img{
+        width: 36px;
+    }
+    .footer--content .copyright--text {
+        font-size:16px;
+        margin-top: 32px;
+    }
+    .testimonial--row:first-child{
+        flex-direction:column-reverse
+    }
+    .contact--right-area{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .contact--right-area img{
+        max-width:320px;
+    }
+    .service--row{
+        display: block;
+    }
+    .service--text{
+        padding-top: 16px;
+    }
+    .testimonial--content .testimonial--row:not(:last-child){
+        margin-bottom: 80px;
+    }
+    .contact--content-wrapper{
+        display: block;
+    }
+    .contact--text {
+        padding-left:0;
+        padding-right: 0;
+        padding-top: 16px;
+    }
+    .contact--text h4 {
+        font-size:24px;
+    }
+    .contact--img img{
+        width: 48px;
+        height: 48px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+    header, section, footer {
+        padding-left: 32px;
+        padding-right: 32px;
     }
     .navbar {
         position: relative;
@@ -50,6 +220,360 @@
     .navbar-toggler svg.close--toogler{
         transform: rotate(45deg);
     }
-    /* Header Section End */
+    .banner--section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .header--section {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .logo img {
+        max-width: 180px;
+    }
+    .main--nav ul li:not(:last-child){
+        margin-right: 0px;
+    }
+    .main--nav ul li a{
+        font-size: 16px;
+    }
+    .banner--section h2 {
+        font-size: 36px;
+        line-height:40px;
+    }
+    .banner--section h1{
+        font-size:40px;
+        line-height:48px;
+    }
+    .banner--section p {
+        font-size: 24px;
+        line-height:28px
+    }
+    .our--service{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .service--content {
+        padding: 0;
+    }
+    .service--text h3{
+        font-size:24px;
+        line-height:32px;
+    }
+    .service--text p{
+        font-size:18px;
+    }
+    .about--content h2,
+    .contact--title h2,
+    .service--title h2 {
+        font-size:40px;
+        margin-bottom: 24px;
+    }
+    .about--content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .testimonial--content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .testimonial--text{
+        padding-right: 32px;
+    }
+    .testimonial-section{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .contact--content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact--section{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .testimonial--text p span:last-child{
+        font-size:18px;
+    }
+    .testimonial--img h4{
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .testimonial--img h5 {
+        font-size: 18px;
+        line-height:24px;
+    }
+    .contact--text-row p {
+        font-size:18px;
+        line-height:32px;
+    }
+    .contact--text h4{
+        font-size:32px;
+        margin-bottom:16px;
+    }
+    .social--media-icons ul li a img{
+        width: 36px;
+    }
+    .footer--content .copyright--text {
+        font-size:16px;
+        margin-top: 32px;
+    }
+    .testimonial--row:first-child{
+        flex-direction:column-reverse
+    }
+    .contact--right-area{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .contact--right-area img{
+        max-width:320px;
+    }
+    
+}
 
+
+@media (min-width: 1024px) and (max-width:1199px){
+    header, section, footer {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .banner--section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .header--section {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .logo img {
+        max-width: 180px;
+    }
+    .main--nav ul li:not(:last-child){
+        margin-right: 48px;
+    }
+    .main--nav ul li a{
+        font-size: 16px;
+    }
+    .banner--section h2 {
+        font-size: 36px;
+        line-height:40px;
+    }
+    .banner--section h1{
+        font-size:40px;
+        line-height:48px;
+    }
+    .banner--section p {
+        font-size: 24px;
+        line-height:28px
+    }
+    .our--service{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .service--content {
+        padding: 0;
+    }
+    .service--text h3{
+        font-size:24px;
+        line-height:32px;
+    }
+    .service--text p{
+        font-size:18px;
+    }
+    .about--content h2,
+    .contact--title h2,
+    .service--title h2 {
+        font-size:40px;
+        margin-bottom: 24px;
+    }
+    .about--content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .testimonial--content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .testimonial--text{
+        padding-right: 32px;
+    }
+    .testimonial-section{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .contact--content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact--section{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .testimonial--text p span:last-child{
+        font-size:18px;
+    }
+    .testimonial--img h4{
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .testimonial--img h5 {
+        font-size: 18px;
+        line-height:24px;
+    }
+    .contact--text-row p {
+        font-size:18px;
+        line-height:32px;
+    }
+    .contact--text h4{
+        font-size:32px;
+        margin-bottom:16px;
+    }
+    .social--media-icons ul li a img{
+        width: 36px;
+    }
+    .footer--content .copyright--text {
+        font-size:16px;
+        margin-top: 32px;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399px){
+    header, section, footer {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+    .banner--section {
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .header--section {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .logo img {
+        max-width: 220px;
+    }
+    .main--nav ul li a{
+        font-size: 18px;
+    }
+    .banner--section h2 {
+        font-size: 40px;
+    }
+    .banner--section h1{
+        font-size:42px;
+        line-height:48px;
+    }
+    .banner--section p {
+        font-size: 28px;
+        line-height:28px
+    }
+    .our--service{
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+    .service--content {
+        padding: 0 64px;
+    }
+    .service--text h3{
+        font-size:28px;
+    }
+    .about--content h2,
+    .contact--title h2,
+    .service--title h2 {
+        font-size:48px;
+        margin-bottom: 32px;
+    }
+    .about--content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .testimonial--content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .testimonial--text{
+        padding-right: 32px;
+    }
+    .testimonial-section{
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+    .contact--content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact--section{
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+}
+
+
+@media (min-width: 1400px) and (max-width:1599px){
+
+    header, section, footer {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .banner--section {
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+    .header--section {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .logo img {
+        max-width: 250px;
+    }
+    .main--nav ul li a{
+        font-size: 20px;
+    }
+    .banner--section h2 {
+        font-size: 48px;
+    }
+    .banner--section h1{
+        font-size:54px;
+        line-height:54px;
+    }
+    .banner--section p {
+        font-size: 36px;
+        line-height:36px
+    }
+    .our--service{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .service--content {
+        padding: 0 80px;
+    }
+    .service--text h3{
+        font-size:32px;
+    }
+    .about--content h2,
+    .contact--title h2,
+    .service--title h2 {
+        font-size:56px;
+        margin-bottom: 50px;
+    }
+    .about--content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .testimonial--content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .testimonial--text{
+        padding-right: 40px;
+    }
+    .testimonial-section{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .contact--content {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
