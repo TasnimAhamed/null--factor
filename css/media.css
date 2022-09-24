@@ -41,6 +41,7 @@
     .navbar-toggler svg.close--toogler{
         transform: rotate(45deg);
     }
+    .data--protection-section,
     .banner--section {
         padding-top: 108px;
         padding-bottom: 108px;
@@ -85,6 +86,7 @@
     .service--text p{
         font-size:16px;
     }
+    .data--protection-content h2,
     .about--content h2,
     .contact--title h2,
     .service--title h2 {
@@ -177,6 +179,13 @@
     .contact--img img{
         width: 48px;
         height: 48px;
+    }
+    .data--protection-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .data--protection-text h5{
+        font-size: 24px;
     }
 }
 
