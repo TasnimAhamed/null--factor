@@ -1,8 +1,8 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
     header, section, footer {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .navbar {
         position: relative;
