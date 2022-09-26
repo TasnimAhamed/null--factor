@@ -43,8 +43,8 @@
     }
     .data--protection-section,
     .banner--section {
-        padding-top: 108px;
-        padding-bottom: 108px;
+        padding-top: 96px;
+        padding-bottom: 80px;
     }
     .header--section {
         padding-top: 12px;
@@ -59,6 +59,9 @@
     .main--nav ul li a{
         font-size: 16px;
     }
+    .banner--content{
+        text-align: center;
+    }
     .banner--section h2 {
         font-size: 24px;
         line-height:32px;
@@ -71,6 +74,10 @@
         font-size: 24px;
         line-height:28px
     }
+    .banner--section button{
+        padding: 16px 32px;
+        font-size:15px;
+    }
     .our--service{
         padding-top: 64px;
         padding-bottom: 64px;
@@ -81,10 +88,28 @@
     .service--text h3{
         font-size:24px;
         line-height:32px;
+        margin-bottom: 20px;
+    }
+    .service--row{
+        display: block;
+    }
+    .service--text{
+        padding-top: 16px;
+    }
+    .service--text button{
+        margin-top: 20px;
+    }
+    .service--content .row:not(:last-child){
+        margin-bottom: 72px;
+    }
+    .service--img img{
+        width: 72px;
+        height: 72px;
     }
     .about--content p,
     .service--text p{
-        font-size:16px;
+        font-size: 18px;
+        line-height: 30px;
     }
     .data--protection-content h2,
     .about--content h2,
@@ -97,6 +122,7 @@
     .about--content{
         padding-left: 0px;
         padding-right: 0px;
+        margin-bottom: 0;
     }
     .testimonial--content{
         padding-left: 0;
@@ -106,8 +132,11 @@
         padding-right: 15px;
     }
     .testimonial-section{
-        padding-top: 64px;
+        padding-top: 40px;
         padding-bottom: 0px;
+    }
+    .testimonial--img img{
+        max-width:240px;
     }
     .contact--content {
         padding-left: 0;
@@ -118,7 +147,8 @@
         padding-bottom: 64px;
     }
     .testimonial--text p span:last-child{
-        font-size:16px;
+        font-size:18px;
+        line-height:30px;
     }
     .testimonial--img h4{
         font-size: 22px;
@@ -130,7 +160,7 @@
     }
     .contact--text-row p {
         font-size: 16px;
-        line-height: 26px;
+        line-height: 30px;
     }
     .contact--text{
         width: 100%;
@@ -154,16 +184,10 @@
         margin-top: 20px;
     }
     .contact--right-area img{
-        max-width:320px;
-    }
-    .service--row{
-        display: block;
-    }
-    .service--text{
-        padding-top: 16px;
+        max-width:240px;
     }
     .testimonial--content .testimonial--row:not(:last-child){
-        margin-bottom: 80px;
+        margin-bottom: 48px;
     }
     .contact--content-wrapper{
         display: block;
@@ -175,6 +199,7 @@
     }
     .contact--text h4 {
         font-size:24px;
+        line-height:30px;
     }
     .contact--img img{
         width: 48px;
@@ -186,6 +211,15 @@
     }
     .data--protection-text h5{
         font-size: 24px;
+    }
+    .contact--text-row.margin{
+        margin-bottom: 16px;
+    }
+    .contact--text .contact--text-row:last-child .col-7 p{
+        word-break: break-all;
+    }
+    .contact--content .contact--row:not(:last-child){
+        margin-bottom: 64px;
     }
 }
 
