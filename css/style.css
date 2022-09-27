@@ -400,12 +400,12 @@ footer{
 
 /* Data Projects Section */
 .data--protection-section{
-    padding-top: 224px;
+    padding-top: 180px;
     padding-bottom: 300px;
 }
 .data--protection-content{
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 144px;
+    padding-right: 144px;
 }
 
 .data--protection-content h2{
@@ -414,26 +414,27 @@ footer{
     font-weight: 400;
     line-height:80px;
     color: #fff;
-    margin-bottom: 60px;
+    margin-bottom: 108px;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing:1.65px;
 }
 .data--protection-text h5{
     font-family: 'Rubik', sans-serif;
-    font-size:28px;
+    font-size:36px;
     font-weight: 400;
-    line-height:32px;
+    line-height:40px;
     color: #fff;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .data--protection-text h5:not(:first-child){
     margin-top: 40px;
 }
 .data--protection-text p{
     font-family: 'Rubik', sans-serif;
-    font-size:18px;
-    font-weight: 400;
-    line-height:28px;
+    font-size:32px;
+    font-weight: 300;
+    line-height:48px;
     color: #fff;
     margin-bottom: 12px;
 }

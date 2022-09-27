@@ -210,7 +210,7 @@
         padding-right: 0;
     }
     .data--protection-text h5{
-        font-size: 24px;
+        font-size: 26px;
     }
     .contact--text-row.margin{
         margin-bottom: 16px;
@@ -220,6 +220,10 @@
     }
     .contact--content .contact--row:not(:last-child){
         margin-bottom: 64px;
+    }
+    .data--protection-text p{
+        font-size:18px;
+        line-height:32px;
     }
 }
 
