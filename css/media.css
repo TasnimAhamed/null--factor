@@ -436,7 +436,25 @@
     .contact--text{
         width: 100%;
     }
-    
+    .data--protection-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .data--protection-content h2 {
+        font-size:44px;
+        margin-bottom: 80px;
+    }
+    .data--protection-section {
+        padding-top: 120px;
+        padding-bottom: 196px;
+    }
+    .data--protection-text p {
+        font-size:26px;
+        line-height:40px;
+    }
+    .data--protection-text h5{
+        font-size:32px;
+    }
 }
 
 
@@ -554,6 +572,26 @@
     .about--content p{
         font-size:30px;
         line-height:40px;
+    }
+    
+    .data--protection-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .data--protection-content h2 {
+        font-size:44px;
+        margin-bottom: 80px;
+    }
+    .data--protection-section {
+        padding-top: 120px;
+        padding-bottom: 196px;
+    }
+    .data--protection-text p {
+        font-size:26px;
+        line-height:40px;
+    }
+    .data--protection-text h5{
+        font-size:32px;
     }
 }
 
