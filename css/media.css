@@ -260,7 +260,6 @@
     
 }
 
-
 @media (min-width: 768px) and (max-width: 1023px){
     header, section, footer {
         padding-left: 32px;
@@ -304,8 +303,8 @@
         transform: rotate(45deg);
     }
     .banner--section {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
     .header--section {
         padding-top: 12px;
@@ -332,6 +331,9 @@
         font-size: 24px;
         line-height:28px
     }
+    .banner--content{
+        text-align:center;
+    }
     .our--service{
         padding-top: 64px;
         padding-bottom: 64px;
@@ -342,6 +344,13 @@
     .service--text h3{
         font-size:24px;
         line-height:32px;
+        margin-bottom: 18px;
+    }
+    .service--text button{
+        margin-top: 18px;
+    }
+    .service--content .row:not(:last-child){
+        margin-bottom: 108px;
     }
     .service--text p{
         font-size:18px;
@@ -350,15 +359,24 @@
     .contact--title h2,
     .service--title h2 {
         font-size:40px;
-        margin-bottom: 24px;
+        margin-bottom: 40px;
+        line-height: 56px;
     }
     .about--content{
         padding-left: 0px;
         padding-right: 0px;
+        margin-bottom: 0px;
+    }
+    .about--content p{
+        font-size: 24px;
+        line-height:36px;
     }
     .testimonial--content{
         padding-left: 0;
         padding-right: 0;
+    }
+    .testimonial--img img{
+        max-width:320px;
     }
     .testimonial--text{
         padding-right: 32px;
@@ -376,7 +394,11 @@
         padding-bottom: 64px;
     }
     .testimonial--text p span:last-child{
-        font-size:18px;
+        font-size:24px;
+        line-height:36px;
+    }
+    .testimonial--content .testimonial--row:not(:last-child){
+        margin-bottom: 96px;
     }
     .testimonial--img h4{
         font-size: 26px;
@@ -388,7 +410,7 @@
     }
     .contact--text-row p {
         font-size:18px;
-        line-height:32px;
+        line-height:30px;
     }
     .contact--text h4{
         font-size:32px;
@@ -424,8 +446,8 @@
         padding-right: 32px;
     }
     .banner--section {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding-top: 108px;
+        padding-bottom: 96px;
     }
     .header--section {
         padding-top: 12px;
@@ -496,11 +518,15 @@
         padding-bottom: 64px;
     }
     .testimonial--text p span:last-child{
-        font-size:18px;
+        font-size:24px;
+        line-height:36px;
+    }
+    .testimonial--img img{
+        max-width:300px;
     }
     .testimonial--img h4{
-        font-size: 26px;
-        line-height: 26px;
+        font-size: 24px;
+        line-height: 32px;
     }
     .testimonial--img h5 {
         font-size: 18px;
@@ -520,6 +546,14 @@
     .footer--content .copyright--text {
         font-size:16px;
         margin-top: 32px;
+    }
+    .banner--section button{
+        padding:18px 26px;
+        font-size:24px;
+    }
+    .about--content p{
+        font-size:30px;
+        line-height:40px;
     }
 }
 
