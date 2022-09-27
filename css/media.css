@@ -455,6 +455,33 @@
     .data--protection-text h5{
         font-size:32px;
     }
+    .defensive--security-section {
+        padding-top: 144px;
+        padding-bottom: 144px;
+    }
+    .incident--content, .security--content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .incident--content p,
+    .security--content p {
+        padding: 0;
+        font-size:28px;
+        line-height:42px;
+    }
+    
+    .security--content h2 {
+        font-size:44px;
+        line-height:48px;
+        margin-bottom: 64px;
+    }
+    .incident--content h3 {
+        font-size:32px;
+        line-height:48px;
+    }
+    .incident--section{
+        padding-bottom: 96px;
+    }
 }
 
 
@@ -593,6 +620,35 @@
     .data--protection-text h5{
         font-size:32px;
     }
+
+    .defensive--security-section {
+        padding-top: 144px;
+        padding-bottom: 144px;
+    }
+    .incident--content, .security--content{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .incident--content p,
+    .security--content p {
+        padding: 0;
+        font-size:28px;
+        line-height:42px;
+    }
+    
+    .security--content h2 {
+        font-size:44px;
+        line-height:48px;
+        margin-bottom: 64px;
+    }
+    .incident--content h3 {
+        font-size:32px;
+        line-height:48px;
+    }
+    .incident--section{
+        padding-bottom: 96px;
+    }
+    
 }
 
 
