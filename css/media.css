@@ -7,13 +7,6 @@
     .navbar {
         position: relative;
     }
-    .logo img{
-        max-width: 140px;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 11px;
-    }
     .main--nav{
         padding: 20px 0;
         text-align: center;
@@ -54,7 +47,7 @@
         padding-bottom: 12px;
     }
     .logo img {
-        max-width: 160px;
+        max-width: 140px;
     }
     .main--nav ul li:not(:last-child){
         margin-right: 0px;
@@ -112,15 +105,15 @@
     .about--content p,
     .service--text p{
         font-size: 18px;
-        line-height: 30px;
+        line-height: 25px;
     }
     .data--protection-content h2,
     .about--content h2,
     .contact--title h2,
     .service--title h2 {
-        font-size:30px;
-        margin-bottom: 32px;
-        line-height:30px;
+        font-size:28px;
+        margin-bottom: 26px;
+        line-height:28px;
     }
     .about--content{
         padding-left: 0px;
@@ -151,7 +144,7 @@
     }
     .testimonial--text p span:last-child{
         font-size:18px;
-        line-height:30px;
+        line-height:26px;
     }
     .testimonial--img h4{
         font-size: 22px;
@@ -163,7 +156,7 @@
     }
     .contact--text-row p {
         font-size: 16px;
-        line-height: 30px;
+        line-height: 24px;
     }
     .contact--text{
         width: 100%;
@@ -205,8 +198,8 @@
         line-height:30px;
     }
     .contact--img img{
-        width: 48px;
-        height: 48px;
+        width: 36px;
+        height: 36px;
     }
     .data--protection-content{
         padding-left: 0;
@@ -217,11 +210,11 @@
         line-height:20px;
         margin-bottom: 12px;
     }
-    .contact--text-row.margin{
+    .contact--text-row{
         margin-bottom: 16px;
     }
-    .contact--text .contact--text-row:last-child .col-7 p{
-        word-break: break-all;
+    .contact--text-row .col-sm-5 p{
+        font-weight: 500;
     }
     .contact--content .contact--row:not(:last-child){
         margin-bottom: 64px;
@@ -263,7 +256,12 @@
     .incident--section{
         padding-bottom: 64px;
     }
-    
+    .about--content{
+        padding: 0px 20px;
+    }
+    .about--content p{
+        font-weight: 400;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px){

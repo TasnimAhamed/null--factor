@@ -503,4 +503,32 @@ footer{
     z-index: -1;
     width: 100%;
 }
+@media (min-width:576px) {
+    .contact--img p{
+        display:none;
+    }
+}
+@media (max-width:575px){
+    .contact--text h4{
+        display: none;
+    }
+    .contact--img{
+        display: flex;
+        align-items: center;
+    }
+    .contact--img p {
+        font-size: 22px;
+        line-height: 30px;
+        color: #ffffff;
+        margin-left: 6px;
+    }
+    .contact--row .contact--left-area.col-lg-8 .contact--content-wrapper{
+        display:flex;
+        align-items:flex-start;
+    }
+    .contact--row .contact--left-area.col-lg-8 .contact--content-wrapper .contact--text{
+        padding-top: 0;
+        padding-left: 20px;
+    }
+}
 /* Defensive Security  Section */
