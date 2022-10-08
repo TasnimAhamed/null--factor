@@ -147,8 +147,8 @@ footer{
 /* Service Section Start */
 
 .our--service{
-    padding-top:120px;
-    padding-bottom: 120px;
+    padding-top:80px;
+    padding-bottom: 96px;
     position: relative;
 }
 .our--service .muster--wave{
@@ -245,7 +245,7 @@ footer{
     font-family: 'Rubik', sans-serif;
     font-size: 36px;
     font-weight: 300;
-    line-height: 48px;
+    line-height: 44px;
     color: #fff;
     margin-bottom: 8px;
 }
@@ -434,9 +434,9 @@ footer{
 }
 .data--protection-text p{
     font-family: 'Rubik', sans-serif;
-    font-size:32px;
+    font-size:26px;
     font-weight: 300;
-    line-height:48px;
+    line-height:36px;
     color: #fff;
     margin-bottom: 12px;
 }

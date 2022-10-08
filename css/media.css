@@ -55,9 +55,6 @@
     .main--nav ul li a{
         font-size: 16px;
     }
-    .banner--content{
-        text-align: center;
-    }
     .banner--section h2 {
         font-size: 24px;
         line-height:32px;
@@ -67,8 +64,7 @@
         line-height:40px;
     }
     .banner--section p {
-        font-size: 24px;
-        line-height:28px
+        display:none;
     }
     .banner--section button{
         padding: 16px 32px;
