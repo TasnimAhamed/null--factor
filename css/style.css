@@ -77,6 +77,9 @@ footer{
 .main--nav ul li a:focus{
     color:#fff;
 }
+.navbar-toggler{
+    padding:0;
+}
 /* Header Section End */
 
 /* Banner Section Start */
@@ -427,7 +430,7 @@ footer{
     margin-bottom: 16px;
 }
 .data--protection-text h5:not(:first-child){
-    margin-top: 48px;
+    margin-top: 40px;
 }
 .data--protection-text p{
     font-family: 'Rubik', sans-serif;
@@ -498,5 +501,6 @@ footer{
     left: 0;
     max-width:400px;
     z-index: -1;
+    width: 100%;
 }
 /* Defensive Security  Section */

@@ -1,8 +1,8 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
     header, section, footer {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
     .navbar {
         position: relative;
@@ -41,8 +41,11 @@
     .navbar-toggler svg.close--toogler{
         transform: rotate(45deg);
     }
-    .data--protection-section,
-    .banner--section {
+    .data--protection-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .banner--section{
         padding-top: 96px;
         padding-bottom: 80px;
     }
@@ -115,9 +118,9 @@
     .about--content h2,
     .contact--title h2,
     .service--title h2 {
-        font-size:32px;
-        margin-bottom: 40px;
-        line-height:40px;
+        font-size:30px;
+        margin-bottom: 32px;
+        line-height:30px;
     }
     .about--content{
         padding-left: 0px;
@@ -210,7 +213,9 @@
         padding-right: 0;
     }
     .data--protection-text h5{
-        font-size: 26px;
+        font-size: 16px;
+        line-height:20px;
+        margin-bottom: 12px;
     }
     .contact--text-row.margin{
         margin-bottom: 16px;
@@ -222,40 +227,41 @@
         margin-bottom: 64px;
     }
     .data--protection-text p{
-        font-size:18px;
-        line-height:32px;
+        font-size:16px;
+        line-height:24px;
     }
     .incident--content, .security--content{
         padding-left: 0;
         padding-right: 0;
     }
     .defensive--security-section{
-        padding-top: 96px;
-        padding-bottom: 80px;
+        padding-top: 40px;
+        padding-bottom: 64px;
     }
     .security--content h2{
-        font-size: 32px;
-        margin-bottom: 40px;
-        line-height: 40px;
+        font-size: 30px;
+        margin-bottom: 30px;
+        line-height: 36px;
     }
     .security--content p{
         padding-left: 0;
         padding-right: 0;
-        font-size: 22px;
-        line-height:32px;
+        font-size: 19px;
+        line-height: 25px;
     }
     .incident--content h3{
-        font-size: 32px;
-        line-height: 43px;
-        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
     }
     .incident--content p{
         padding: 0;
         font-size: 18px;
-        line-height: 32px;
+        line-height: 25px;
+        padding-right: 20px;
     }
     .incident--section{
-        padding-bottom: 80px;
+        padding-bottom: 64px;
     }
     
 }
