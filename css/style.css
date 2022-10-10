@@ -521,7 +521,7 @@ footer{
         line-height: 30px;
         color: #ffffff;
         margin-left: 6px;
-    }
+    }/* 
     .contact--row .contact--left-area.col-lg-8 .contact--content-wrapper{
         display:flex;
         align-items:flex-start;
@@ -529,6 +529,6 @@ footer{
     .contact--row .contact--left-area.col-lg-8 .contact--content-wrapper .contact--text{
         padding-top: 0;
         padding-left: 20px;
-    }
+    } */
 }
 /* Defensive Security  Section */

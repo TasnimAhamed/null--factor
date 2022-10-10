@@ -1,8 +1,9 @@
+/* Mobile */
 @media (min-width: 320px) and (max-width: 767px) {
 
     header, section, footer {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .navbar {
         position: relative;
@@ -46,7 +47,7 @@
         padding-bottom: 160px;
     }
     .header--section {
-        padding-top: 14px;
+        padding-top: 40px;
         padding-bottom: 14px;
     }
     .logo img {
@@ -64,16 +65,17 @@
         margin-bottom: 4px;
     }
     .banner--section h1{
-        font-size:34px;
+        font-size:32px;
         line-height:42px;
     }
     .banner--section p {
         display:none;
     }
     .banner--section button{
-        padding: 10px 10px;
-        font-size: 16px;
-        border: 30px
+        padding: 8px 10px;
+        font-size: 15px;
+        border: 30px;
+        font-weight: 400;
     }
     .our--service{
         padding-top: 64px;
@@ -91,14 +93,20 @@
         padding-top: 0px;
     }
     .service--text button{
-        margin-top: 16px;
+        margin-top: 12px;
+        padding: 3px 15px;
     }
     .service--content .row:not(:last-child){
         margin-bottom: 30px;
     }
     .service--img img{
-        width: 48px;
-        height: 48px;
+        width: 40px;
+        height: 40px;
+        margin-top:12px;
+        margin-right: 8px;
+    }
+    .our--service .muster--wave{
+        max-width:250px;
     }
     .about--content p{
         font-size: 20px;
@@ -107,13 +115,13 @@
     }
     .service--text p{
         font-size: 18px;
-        line-height: 26px;
+        line-height: 23px;
     }
     .data--protection-content h2,
     .about--content h2,
     .contact--title h2,
     .service--title h2 {
-        font-size:32px;
+        font-size:36px;
         margin-bottom: 40px;
         line-height:28px;
     }
@@ -156,6 +164,9 @@
     .testimonial--img h5 {
         font-size: 16px;
         line-height:20px;
+    }
+    .testimonial--text p span:first-child {
+        font-size:54px;
     }
     .contact--text-row p {
         font-size: 16px;
@@ -261,6 +272,7 @@
     }
 }
 
+/* Tablet Device */
 @media (min-width: 768px) and (max-width: 1023px){
     header, section, footer {
         padding-left: 32px;
@@ -268,13 +280,6 @@
     }
     .navbar {
         position: relative;
-    }
-    .logo img{
-        max-width: 160px;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 11px;
     }
     .main--nav{
         padding: 20px 0;
@@ -334,6 +339,10 @@
     }
     .banner--content{
         text-align:center;
+    }
+    .banner--section button{
+        padding:12px 24px;
+        font-size:20px;
     }
     .our--service{
         padding-top: 64px;
@@ -404,6 +413,7 @@
     .testimonial--img h4{
         font-size: 26px;
         line-height: 26px;
+        margin-bottom: 4px;
     }
     .testimonial--img h5 {
         font-size: 18px;
@@ -485,7 +495,7 @@
     }
 }
 
-
+/* Laptop */
 @media (min-width: 1024px) and (max-width:1199px){
     header, section, footer {
         padding-left: 32px;
@@ -653,6 +663,7 @@
 }
 
 
+/* Large Desktop */
 @media (min-width: 1200px) and (max-width: 1399px){
     header, section, footer {
         padding-left: 64px;
@@ -724,7 +735,7 @@
     }
 }
 
-
+/* Extra Large Desktop */
 @media (min-width: 1400px) and (max-width:1599px){
 
     header, section, footer {
