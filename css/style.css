@@ -279,6 +279,7 @@ footer{
     left: 0;
     width: 100%;
     height: 65%;
+    z-index: -1;
 }
 .testimonial--content{
     padding-left: 120px;
