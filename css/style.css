@@ -550,7 +550,7 @@ footer{
         display:none;
     }
 }
-@media (max-width:575px){
+@media (max-width:991px){
     .banner--for-desktop{
         display:none;
     }

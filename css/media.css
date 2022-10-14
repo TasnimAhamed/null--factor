@@ -40,8 +40,8 @@
         padding-bottom: 48px;
     }
     .banner--wave{
-        height: 72%;
-        top: 0;
+        height: 62%;
+        top: 98px;
     }
     .banner--section{
         padding-top: 48px;
@@ -51,7 +51,7 @@
     .header--section {
         padding-top: 20px;
         padding-bottom: 20px;
-        /* background-color: #070d27; */
+        background-color: #070d27;
     }
     .logo img {
         max-width: 140px;
@@ -302,7 +302,10 @@
     .main--nav ul li:not(:last-child){
         margin-right: 0px;
     }
-    
+    .banner--wave{
+        top: 98px;
+        height: 100%;
+    }
     .de--link{
         font-size: 18px;
         margin-right: 12px;
