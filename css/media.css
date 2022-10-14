@@ -24,7 +24,8 @@
         stroke: #fff;
     }
     .navbar-toggler:focus{
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
     }
     .navbar-toggler[aria-expanded="true"] svg.open--toogler{
         display: none;
@@ -33,7 +34,9 @@
         display: none;
     }
     .navbar-toggler svg.close--toogler{
-        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
     }
     .data--protection-section {
         padding-top: 48px;
@@ -199,7 +202,10 @@
         margin-top: 32px;
     }
     .testimonial--row:first-child{
-        flex-direction:column-reverse
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:reverse;
+            -ms-flex-direction:column-reverse;
+                flex-direction:column-reverse
     }
     .contact--right-area{
         text-align: center;
@@ -320,7 +326,8 @@
         stroke: #fff;
     }
     .navbar-toggler:focus{
-        box-shadow: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
     }
     .navbar-toggler[aria-expanded="true"] svg.open--toogler{
         display: none;
@@ -329,7 +336,9 @@
         display: none;
     }
     .navbar-toggler svg.close--toogler{
-        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
     }
     .banner--section {
         padding-top: 96px;
@@ -459,7 +468,10 @@
         margin-top: 32px;
     }
     .testimonial--row:first-child{
-        flex-direction:column-reverse
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:reverse;
+            -ms-flex-direction:column-reverse;
+                flex-direction:column-reverse
     }
     .contact--right-area{
         text-align: center;
