@@ -41,7 +41,7 @@
     }
     .banner--wave{
         height: 72%;
-        top: 98px;
+        top: 0;
     }
     .banner--section{
         padding-top: 48px;
@@ -51,7 +51,7 @@
     .header--section {
         padding-top: 20px;
         padding-bottom: 20px;
-        background-color: #070d27;
+        /* background-color: #070d27; */
     }
     .logo img {
         max-width: 140px;

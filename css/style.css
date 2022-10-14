@@ -546,8 +546,14 @@ footer{
     .testimonial--wave{
         display:none;
     }
+    .banner--wave-mobile{
+        display:none;
+    }
 }
 @media (max-width:575px){
+    .banner--for-desktop{
+        display:none;
+    }
     .contact--text-desktop{
         display:none;
     }
