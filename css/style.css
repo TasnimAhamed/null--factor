@@ -551,7 +551,7 @@ footer{
     }
 }
 @media (max-width:991px){
-    .banner--for-desktop{
+    .banner--wave-desktop{
         display:none;
     }
     .contact--text-desktop{
