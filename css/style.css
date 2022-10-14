@@ -52,15 +52,23 @@ footer{
 
 /* Header Section Start */
 .header--section{
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
-
+.header--section.changeBg{
+    background: #070d27;
+}
 .logo img{
     max-width: 300px;
 }
 
-.main--nav ul li a{
+.main--nav ul li a,
+.de--link{
     font-family: 'Rubik', sans-serif;
     font-size:24px;
     font-weight: 400;
@@ -74,7 +82,8 @@ footer{
 }
 .main--nav ul li:hover a,
 .main--nav ul li:focus a,
-.main--nav ul li a:focus{
+.main--nav ul li a:focus,
+.de--link:focus{
     color:#fff;
 }
 .navbar-toggler{
@@ -101,6 +110,7 @@ footer{
 .banner--section{
     padding-top:250px;
     padding-bottom: 224px;
+    margin-top: 114px;
 }
 .banner--section h2{
     font-family: 'Rubik', sans-serif;
@@ -219,10 +229,15 @@ footer{
     margin-top: 48px;
     border: none;
 }
+.our--service{
+    padding-top: 120px;
+}
 /* Service Section End */
 
 /* About Section Start*/
-
+.about--section{
+    padding-top: 120px;
+}
 .about--content{
     padding-left:120px;
     padding-right: 120px;
@@ -503,12 +518,27 @@ footer{
     z-index: -1;
     width: 100%;
 }
-@media (min-width:576px) {
+.contact--text-row{
+    margin-bottom: 6px;
+}
+@media (min-width:992px) {
     .contact--img p{
+        display:none;
+    }
+    .show--more{
+        display:none;
+    }
+    .contact--text-mobile{
+        display:none;
+    }
+    .de--link{
         display:none;
     }
 }
 @media (max-width:575px){
+    .contact--text-desktop{
+        display:none;
+    }
     .contact--text h4{
         display: none;
     }
@@ -521,14 +551,29 @@ footer{
         line-height: 30px;
         color: #ffffff;
         margin-left: 6px;
-    }/* 
-    .contact--row .contact--left-area.col-lg-8 .contact--content-wrapper{
-        display:flex;
-        align-items:flex-start;
     }
-    .contact--row .contact--left-area.col-lg-8 .contact--content-wrapper .contact--text{
-        padding-top: 0;
-        padding-left: 20px;
-    } */
+    .show--more .btn,
+    .show--less .btn{
+        display:inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #745ddc;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        padding: 0;
+        margin-top: 8px;
+    }
+    .show--more .btn svg,
+    .show--less .btn svg{
+        width: 18px;
+        fill: #745ddc;
+        margin-right: 6px;
+    }
+    .show--more:hover .btn,
+    .show--less:hover .btn{
+        color: #745ddc;
+    }
 }
 /* Defensive Security  Section */

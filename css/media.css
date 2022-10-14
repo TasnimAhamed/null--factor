@@ -41,14 +41,17 @@
     }
     .banner--wave{
         height: 72%;
+        top: 98px;
     }
     .banner--section{
         padding-top: 48px;
         padding-bottom: 160px;
+        margin-top: 98px;
     }
     .header--section {
-        padding-top: 40px;
-        padding-bottom: 14px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #070d27;
     }
     .logo img {
         max-width: 140px;
@@ -58,6 +61,14 @@
     }
     .main--nav ul li a{
         font-size: 16px;
+        text-align:left;
+    }
+    .de--link{
+        font-size: 18px;
+        margin-right: 12px;
+    }
+    .main--nav ul li:last-child{
+        display: none;
     }
     .banner--section h2 {
         font-size: 32px;
@@ -78,7 +89,7 @@
         font-weight: 400;
     }
     .our--service{
-        padding-top: 64px;
+        padding-top: 100px;
         padding-bottom: 120px;
     }
     .service--content {
@@ -103,7 +114,7 @@
         width: 40px;
         height: 40px;
         margin-top:12px;
-        margin-right: 8px;
+        margin-right: 12px;
     }
     .our--service .muster--wave{
         max-width:250px;
@@ -121,7 +132,7 @@
     .about--content h2,
     .contact--title h2,
     .service--title h2 {
-        font-size:36px;
+        font-size:32px;
         margin-bottom: 40px;
         line-height:28px;
     }
@@ -149,7 +160,7 @@
         padding-right: 0;
     }
     .contact--section{
-        padding-top: 64px;
+        padding-top: 100px;
         padding-bottom: 64px;
     }
     .testimonial--text p span:last-child{
@@ -194,7 +205,7 @@
         margin-top: 20px;
     }
     .contact--right-area img{
-        max-width:240px;
+        max-width:200px;
     }
     .testimonial--content .testimonial--row:not(:last-child){
         margin-bottom: 48px;
@@ -214,6 +225,9 @@
     .contact--img img{
         width: 36px;
         height: 36px;
+    }
+    .data--protection-section{
+        margin-top: 98px;
     }
     .data--protection-content{
         padding-left: 0;
@@ -244,6 +258,7 @@
     .defensive--security-section{
         padding-top: 48px;
         padding-bottom: 64px;
+        margin-top: 98px;
     }
     .security--content h2{
         font-size: 30px;
@@ -255,6 +270,7 @@
         padding-right: 0;
         font-size: 20px;
         line-height: 26px;
+        text-align: left;
     }
     .incident--content h3{
         font-size: 24px;
@@ -265,7 +281,6 @@
         padding: 0;
         font-size: 18px;
         line-height: 26px;
-        padding-right: 20px;
     }
     .incident--section{
         padding-bottom: 64px;
@@ -283,10 +298,14 @@
     }
     .main--nav{
         padding: 20px 0;
-        text-align: center;
     }
     .main--nav ul li:not(:last-child){
         margin-right: 0px;
+    }
+    
+    .de--link{
+        font-size: 18px;
+        margin-right: 12px;
     }
     .navbar-toggler{
         border: 0;
@@ -315,6 +334,7 @@
     .header--section {
         padding-top: 12px;
         padding-bottom: 12px;
+        background-color: #070d27;
     }
     .logo img {
         max-width: 180px;
@@ -478,7 +498,7 @@
     .security--content p {
         padding: 0;
         font-size:28px;
-        line-height:42px;
+        line-height:36px;
     }
     
     .security--content h2 {

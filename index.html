@@ -30,14 +30,17 @@
                 <a class="navbar-brand logo" href="#">
                     <img src="./images/logo.png" alt="Nullfactor" class="img-fluid">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false">
-                    <svg class="open--toogler" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
-                    </svg>
-                    <svg class="close--toogler" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-                    </svg>                                            
-                </button>
+                <div class="de--link-wrapper">
+                    <a class="de--link" href="#">DE</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false">
+                        <svg class="open--toogler" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
+                        </svg>
+                        <svg class="close--toogler" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                        </svg>                                            
+                    </button>
+                </div>
                 <div class="collapse navbar-collapse main--nav" id="mainNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
@@ -238,7 +241,7 @@
                             <img src="./images/Asset 16.svg" alt="Null Factor">
                             <p>IMPRINT</p>
                         </div>
-                        <div class="contact--text">
+                        <div class="contact--text contact--text-desktop" >
                             <h4>IMPRINT</h4>
                             <div class="contact--text-row row">
                                 <div class="col-sm-5">
@@ -312,7 +315,98 @@
                                     <p>https://nullfaktor.com/privacy-policy </p>
                                 </div>
                             </div>
-                            
+                        </div>
+                        <div class="contact--text contact--text-mobile" >
+                            <h4>IMPRINT</h4>
+                            <div class="contact--text-row row">
+                                <div class="col-sm-5">
+                                    <p>Company:</p>
+                                </div>
+                                <div class="col-sm-7">
+                                    <p>nullFaktor GmbH</p>
+                                </div>
+                            </div>
+                            <div class="contact--text-row row">
+                                <div class="col-sm-5">
+                                    <p>Line of business:</p>
+                                </div>
+                                <div class="col-sm-7">
+                                    <p>IT Security Consulting</p>
+                                </div>
+                            </div>
+                            <div class="contact--text-row row">
+                                <div class="col-sm-5">
+                                    <p>Managing Directors:</p>
+                                </div>
+                                <div class="col-sm-7">
+                                    <p>Raschin Tavakoli <br/>Alexander Meier</p>
+                                </div>
+                            </div>
+                            <div class="show--more-content">
+                                <div class="contact--text-row row">
+                                    <div class="col-sm-5">
+                                        <p>Commercial register:</p>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p>579103 y</p>
+                                    </div>
+                                </div>
+                                <div class="contact--text-row row">
+                                    <div class="col-sm-5">
+                                        <p>Register court: </p>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p>Vienna</p>
+                                    </div>
+                                </div>
+                                <div class="contact--text-row row">
+                                    <div class="col-sm-5">
+                                        <p>VAT-ID:</p>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p>ATU78055113</p>
+                                    </div>
+                                </div>
+                                <div class="contact--text-row row">
+                                    <div class="col-sm-5">
+                                        <p>Trade Membership:</p>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p>WKK Vienna</p>
+                                    </div>
+                                </div>
+                                <div class="contact--text-row row">
+                                    <div class="col-sm-5">
+                                        <p>Trading regulations:</p>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p>www.ris.bka.gv.at</p>
+                                    </div>
+                                </div>
+                                <div class="contact--text-row row">
+                                    <div class="col-sm-5">
+                                        <p>Privacy Policy:        </p>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <p>https://nullfaktor.com/privacy-policy </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="show--more">
+                            <button class="btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/>
+                                </svg>
+                                <span>More</span>
+                            </button>
+                        </div>
+                        <div class="show--less">
+                            <button class="btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+                                <span>Less</span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -354,6 +448,7 @@
 
 
     <!-- Popper JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
