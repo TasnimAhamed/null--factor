@@ -93,7 +93,7 @@
     }
     .our--service{
         padding-top: 100px;
-        padding-bottom: 120px;
+        padding-bottom: 100px;
     }
     .service--content {
         padding: 0;
@@ -139,11 +139,14 @@
         margin-bottom: 40px;
         line-height:28px;
     }
+    .about--section{
+        padding-top: 0;
+    }
     .about--content{
         padding-left: 0px;
         padding-right: 0px;
         margin-bottom: 0;
-        padding-top: 60px;
+        padding-top: 00px;
     }
     .testimonial--content{
         padding-left: 0;

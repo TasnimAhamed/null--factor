@@ -65,13 +65,13 @@ footer{
     background: #070d27;
 }
 .logo img{
-    max-width: 300px;
+    max-width: 250px;
 }
 
 .main--nav ul li a,
 .de--link{
     font-family: 'Rubik', sans-serif;
-    font-size:24px;
+    font-size:20px;
     font-weight: 400;
     line-height:28px;
     color: #fff;
@@ -79,7 +79,7 @@ footer{
     
 }
 .main--nav ul li:not(:last-child){
-    margin-right: 72px;
+    margin-right: 40px;
 }
 .main--nav ul li:hover a,
 .main--nav ul li:focus a,
