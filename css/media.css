@@ -313,8 +313,17 @@
         margin-right: 0px;
     }
     .banner--wave{
-        top: 98px;
+        top: 18px;
         height: 100%;
+    }
+    .contact--text-mobile,
+    .show--more,
+    .contact--img p{
+        display: none;
+    }
+    .contact--img img{
+        width: 48px;
+        height:48px;
     }
     .de--link{
         font-size: 18px;
@@ -380,6 +389,9 @@
         padding:12px 24px;
         font-size:20px;
     }
+    .banner--wave-desktop{
+        display:none;
+    }
     .our--service{
         padding-top: 64px;
         padding-bottom: 64px;
@@ -390,7 +402,7 @@
     .service--text h3{
         font-size:24px;
         line-height:32px;
-        margin-bottom: 18px;
+        margin-bottom: 16px;
     }
     .service--text button{
         margin-top: 18px;
@@ -485,6 +497,7 @@
     }
     .contact--text{
         width: 100%;
+        padding-left: 24px;
     }
     .data--protection-content{
         padding-left: 0;
@@ -700,7 +713,6 @@
     }
     
 }
-
 
 /* Large Desktop */
 @media (min-width: 1200px) and (max-width: 1399px){
