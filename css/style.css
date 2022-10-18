@@ -1,16 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&display=swap');
-/* Font family */
-/*
-font-family: 'Rubik', sans-serif;
-font-family: 'Share Tech Mono', monospace;
-*/
 
 @font-face {
     font-family: 'sathu';
-    src: url("./../fonts/Sathu-quotation.ttf") format("ttf");
+    src: url("./../fonts/Sathu-quotation.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url("./../fonts/Rubik-Light.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url("./../fonts/Rubik-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-Medium';
+    src: url("./../fonts/Rubik-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* Basic Setup */
 *,
@@ -70,9 +86,8 @@ footer{
 
 .main--nav ul li a,
 .de--link{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:20px;
-    font-weight: 400;
     line-height:28px;
     color: #fff;
     text-transform: uppercase;
@@ -115,27 +130,24 @@ footer{
     margin-top: 114px;
 }
 .banner--section h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:74px;
-    font-weight: 400;
     line-height:80px;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 12px;
 }
 .banner--section h1{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Medium';
     font-size:80px;
-    font-weight: 500;
     line-height:72px;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 16px;
 }
 .banner--section p{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:48px;
-    font-weight: 400;
     line-height:48px;
     color: #fff;
     margin-bottom: 32px;
@@ -147,9 +159,8 @@ footer{
     background-size: cover;
     padding: 21px 32px;
     border-radius: 42px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:30px;
-    font-weight: 400;
     color: #000;
     letter-spacing: 1.1px;
 
@@ -179,16 +190,15 @@ footer{
     text-align: center;
 }
 .service--title h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:72px;
-    font-weight: 400;
     line-height:80px;
     color: #fff;
     margin-bottom: 120px;
     text-transform: uppercase;
 }
 .service--title h2 span{
-    font-weight: 500;
+    font-family: 'Rubik-Medium'!important;
 }
 .service--content .row:not(:last-child){
     margin-bottom: 160px;
@@ -205,17 +215,15 @@ footer{
 }
 
 .service--text h3{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:38px;
-    font-weight: 400;
     line-height:48px;
     color: #fff;
     margin-bottom: 40px;
 }
 .service--text p{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Light';
     font-size:25px;
-    font-weight: 300;
     line-height:32px;
     color: #fff;
     margin-bottom: 8px;
@@ -227,9 +235,8 @@ footer{
     background-size: cover;
     padding: 8px 36px;
     border-radius: 40px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:16px;
-    font-weight: 400;
     margin-top: 48px;
     border: none;
 }
@@ -249,21 +256,19 @@ footer{
     margin-bottom: 120px;
 }
 .about--content h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:72px;
-    font-weight: 400;
     line-height:80px;
     color: #fff;
     margin-bottom: 60px;
     text-transform: uppercase;
 }
 .about--content h2 span{
-    font-weight: 500;
+    font-family: 'Rubik-Medium'!important;
 }
 .about--content p{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Light';
     font-size: 36px;
-    font-weight: 300;
     line-height: 44px;
     color: #fff;
     margin-bottom: 8px;
@@ -303,7 +308,6 @@ footer{
 .testimonial--text p span:first-child{
     font-family: 'sathu', sans-serif;
     font-size:90px;
-    font-weight: 400;
     line-height:80px;
     color: #fff;
     margin-bottom: 60px;
@@ -311,9 +315,8 @@ footer{
     display: inline-block;
 }
 .testimonial--text p span:last-child{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Light';
     font-size:35px;
-    font-weight: 300;
     line-height:48px;
     color: #fff;
     margin-bottom: 8px;
@@ -328,17 +331,15 @@ footer{
     margin-bottom: 24px;
 }
 .testimonial--img h4{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:42px;
-    font-weight: 400;
     line-height:42px;
     color: #fff;
     margin-bottom: 12px;
 }
 .testimonial--img h5{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:32px;
-    font-weight: 400;
     line-height:32px;
     color: #fff;
     margin-bottom: 8px;
@@ -358,9 +359,8 @@ footer{
     text-align: center;
 }
 .contact--title h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:72px;
-    font-weight: 400;
     line-height:80px;
     color: #fff;
     margin-bottom: 150px;
@@ -382,9 +382,8 @@ footer{
     margin-right: 12px;
 }
 .contact--text-row p{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Light';
     font-size:30px;
-    font-weight: 300;
     line-height:40px;
     color: #fff;
 }
@@ -396,9 +395,8 @@ footer{
     margin-bottom: 80px;
 }
 .contact--text h4{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Light';
     font-size:48px;
-    font-weight: 300;
     line-height:40px;
     color: #fff;
     margin-bottom: 40px;
@@ -423,9 +421,8 @@ footer{
 }
 .footer--content .copyright--text{
     text-align: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Light';
     font-size:32px;
-    font-weight: 300;
     line-height:24px;
     color: #fff;
     margin-top: 48px;
@@ -443,9 +440,8 @@ footer{
 }
 
 .data--protection-content h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:72px;
-    font-weight: 400;
     line-height:80px;
     color: #fff;
     margin-bottom: 108px;
@@ -454,9 +450,8 @@ footer{
     letter-spacing:1.65px;
 }
 .data--protection-text h5{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:36px;
-    font-weight: 400;
     line-height:40px;
     color: #fff;
     margin-bottom: 16px;
@@ -465,9 +460,8 @@ footer{
     margin-top: 40px;
 }
 .data--protection-text p{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Light';
     font-size:26px;
-    font-weight: 300;
     line-height:36px;
     color: #fff;
     margin-bottom: 12px;
@@ -488,9 +482,8 @@ footer{
     padding-right: 120px;
 }
 .security--content h2{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Regular';
     font-size:72px;
-    font-weight: 400;
     line-height:80px;
     color: #fff;
     margin-bottom: 64px;
@@ -498,18 +491,16 @@ footer{
     text-align: center;
 }
 .incident--content h3{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Light';
     font-size:42px;
-    font-weight: 300;
     line-height:56px;
     color: #fff;
     margin-bottom: 48px;
     text-align: center;
 }
 .security--content p{
-    font-family: 'Rubik', sans-serif;
     font-size:42px;
-    font-weight: 300;
+    font-family: 'Rubik-Light';
     line-height: 50px;
     color: #fff;
     padding: 0 90px;
@@ -517,9 +508,8 @@ footer{
 }
 .incident--content p{
     text-align: left;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik-Light';
     font-size:32px;
-    font-weight: 300;
     line-height: 40px;
     color: #fff;
     padding: 0 90px;
@@ -596,8 +586,7 @@ footer{
         color: #745ddc;
         font-size: 18px;
         text-transform: uppercase;
-        font-family: 'Rubik', sans-serif;
-        font-weight: 400;
+        font-family: 'Rubik-Regular';
         padding: 0;
         margin-top: 8px;
     }
